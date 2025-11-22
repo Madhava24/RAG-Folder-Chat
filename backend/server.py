@@ -119,7 +119,7 @@ def chat(req: ChatRequest):
     context = _format_docs(docs)
     prompt = _build_messages(req.history, req.question, context)
     llm = _get_llm_callable()
-    answer = llm(prompt)
+    answer = llm.invoke(prompt)
     sources = set()
     for d in docs:
         meta = d.metadata or {}
