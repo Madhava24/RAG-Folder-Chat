@@ -1,0 +1,18 @@
+langchain
+langchain-community
+# transformers
+sentence-transformers
+faiss-cpu
+pypdf
+python-docx
+pandas
+openpyxl
+# accelerate
+huggingface-hub
+uvicorn
+fastapi
+# llama-cpp-python==0.2.80
+unstructured
+python-magic-bin
+langchain-mistralai
+python-dotenv
